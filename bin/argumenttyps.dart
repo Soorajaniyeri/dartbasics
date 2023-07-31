@@ -1,11 +1,11 @@
 void main() {
-  positionalParameterFunction(5, 10);
+  positionalParameterFunctions(5, 10);
   positionalNamedParameterFunction(num1: 20, num2: 20);
   optionalParameterFunction();
   optionalNamedParameterFunction();
 }
 
-void positionalParameterFunction(int num1, int num2) {
+void positionalParameterFunctions(int num1, int num2) {
   print(num1 + num2);
 }
 
